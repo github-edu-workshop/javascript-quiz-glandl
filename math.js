@@ -10,6 +10,8 @@ exports.sub = function (x, y) {
 
 exports.sumOfPositiveNumbers = function (upperLimitInclusive) {
     let result = 0;
+
+    // Now the loop looks great 💪
     for (let i = 1; i <= upperLimitInclusive; i++) {
         result += i;
     }
